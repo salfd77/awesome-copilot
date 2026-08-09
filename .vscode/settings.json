@@ -1,0 +1,39 @@
+{
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false,
+    "editor.formatOnSave": true
+  },
+  "editor.rulers": [
+    100
+  ],
+  "files.associations": {
+    "*.agent.md": "chatagent",
+    "*.instructions.md": "instructions",
+    "*.prompt.md": "prompt"
+  },
+  "yaml.schemas": {
+    "./.schemas/collection.schema.json": "*.collection.yml",
+    "./.schemas/tools.schema.json": "website/data/tools.yml"
+  },
+  "chat.mcp.serverSampling": {
+    "awesome-copilot-main/.vscode/mcp.json: github-agentic-workflows": {
+      "allowedModels": [
+        "copilotcli/auto",
+        "copilot/auto",
+        "customendpoint/Antigravity/claude-opus-4-6-thinking",
+        "customendpoint/Antigravity/claude-sonnet-4-6",
+        "customendpoint/Antigravity/gemini-3.1-flash-image",
+        "customendpoint/Antigravity/gemini-3.1-pro-low",
+        "customendpoint/Antigravity/gemini-3.5-flash-extra-low",
+        "customendpoint/Antigravity/gemini-3.5-flash-low",
+        "customendpoint/Antigravity/gemini-3.6-flash-high",
+        "customendpoint/Antigravity/gemini-pro-agent",
+        "customendpoint/Antigravity/gpt-oss-120b-medium",
+        "agent-host-copilotcli:auto"
+      ]
+    }
+  }
+}
