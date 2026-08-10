@@ -15,6 +15,13 @@
         "status",
         "audit-diff"
       ]
+    },
+    "the-boss-sovereign": {
+      "type": "local",
+      "command": "node",
+      "args": [
+        "../sovereign/src/mcp/server.js"
+      ]
     }
   }
 }
